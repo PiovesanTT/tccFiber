@@ -69,7 +69,6 @@ require('./assets/css/iconfont.css')
 import * as VueGoogleMaps from "vue2-google-maps";
 Vue.use(VueGoogleMaps, {
   load: {
-    key: "AIzaSyBNIBI3MMc3lKXr5sfhcv2jjdbGaduff8A",
     libraries: 'places,drawing,visualization' // necessary for places input
   }
 });
